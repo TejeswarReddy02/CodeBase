@@ -1,0 +1,96 @@
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+# Environment Variables / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# IDE / Editor
+# ==========================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+logs/
+
+# ==========================================
+# Project Generated Data
+# ==========================================
+
+# Cloned GitHub repositories
+data/repositories/*
+!data/repositories/.gitkeep
+
+# Generated vector databases / indexes
+data/indexes/*
+!data/indexes/.gitkeep
+
+# ==========================================
+# Machine Learning / AI Cache
+# ==========================================
+
+.cache/
+huggingface/
+transformers_cache/
+
+# ==========================================
+# Jupyter
+# ==========================================
+
+.ipynb_checkpoints/
+
+# ==========================================
+# Testing / Coverage
+# ==========================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ==========================================
+# Python Build Files
+# ==========================================
+
+build/
+dist/
+*.egg-info/
+
+# ==========================================
+# Temporary Files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
